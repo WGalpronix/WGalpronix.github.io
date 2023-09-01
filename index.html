@@ -6,36 +6,59 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Alpronix</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="hero">
+    <h1>Alpronix: The Future of Tech</h1>
   </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact-form">Contact</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section id="about">
       <h2>About Us</h2>
-      <p>We are the future of tech.</p>
-    </section>
-    
-    <section id="services">
-      <h2>Services</h2>
-      <p>We offer cutting-edge solutions.</p>
+      <p>We are innovators in technology, pushing boundaries and creating solutions for tomorrow.</p>
     </section>
 
-    <section id="contact">
+    <section id="portfolio">
+      <h2>Our Projects</h2>
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Revolutionary IoT Solutions</p>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>What People Say</h2>
+      <blockquote>
+        <p>"Alpronix provides exceptional service and cutting-edge solutions."</p>
+        <cite>- Jane Doe</cite>
+      </blockquote>
+    </section>
+
+    <section id="contact-form">
       <h2>Contact Us</h2>
-      <p>Email us at: info@alpronix.com</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <input type="submit" value="Send">
+      </form>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2023 Alpronix. All Rights Reserved.</p>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
   </footer>
 
   <script src="script.js"></script>
