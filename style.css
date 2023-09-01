@@ -4,48 +4,54 @@ body, h1, h2, ul, p {
   padding: 0;
 }
 
-/* Add a background color and some padding around the entire page */
+/* General Styling */
 body {
   background-color: #f1f1f1;
-  padding: 20px;
   font-family: Arial, sans-serif;
 }
 
-/* Style the header */
-header {
+/* Hero Section */
+.hero {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 100px 0;
 }
 
-/* Style the navigation menu */
+/* Navigation */
 nav ul {
   background-color: #444;
-  overflow: hidden;
   color: white;
+  text-align: center;
+  padding: 14px;
 }
 
 nav ul li {
   display: inline;
-  padding: 14px;
+  margin: 0 20px;
 }
 
-/* Style main content */
+/* Main Content */
 main {
   margin: 15px;
   padding: 15px;
   background-color: #ccc;
 }
 
-/* Style footer */
+.project-card, blockquote {
+  border: 1px solid #aaa;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Footer */
 footer {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
+.social-icons a {
+  margin: 0 15px;
+}
