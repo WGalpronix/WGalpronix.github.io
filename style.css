@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, nav, main, footer {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+h1, h2 {
+  color: #333;
+}
