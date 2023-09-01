@@ -1,4 +1,9 @@
-// Log a message when the page is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-  console.log('Alpronix website is ready!');
+// Smooth Scrolling for Anchor Links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
 });
